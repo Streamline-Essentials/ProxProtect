@@ -5,11 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09ffe75c-01fe-4feb-9dae-9fd3bdebfc53" name="Changes" comment="Git ignore.">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/configs/HazardsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/Hazard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/action/HazardAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/action/HazardActionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/cause/HazardCause.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/cause/HazardCauseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/condition/HazardCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/condition/HazardConditionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/events/ProxListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/ExampleModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/host/plas/ProxProtect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/commands/ExampleCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/configs/ExampleConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/events/ExampleListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/events/own/ExampleEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/ratapi/ExampleExpansion.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +46,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="StreamlineExample" type="f1a62948:ProjectNode" />
+                <item name="ProxProtect" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -44,6 +58,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -51,23 +66,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MrDrakify"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MrDrakify&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Streamline-Essentials/ExampleModule.git",
-    "accountId": "b9952c05-e03e-4201-9d5b-afd692b6f8f1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Streamline-Essentials/ProxProtect.git&quot;,
+    &quot;accountId&quot;: &quot;b9952c05-e03e-4201-9d5b-afd692b6f8f1&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="Plastic.Settings">
     <option name="enabled" value="false" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -81,12 +99,13 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Gradle.ExampleModule [clean build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProxProtect [clean build].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/thesi/OneDrive/Development/Java/Streamline/Modules/ExampleModule&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/OneDrive/Development/Java/Streamline/Modules/ProxProtect&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -101,7 +120,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="ExampleModule [clean build]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+    <configuration name="ProxProtect [clean build]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -120,18 +139,16 @@
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <EXTENSION ID="com.intellij.execution.ExternalSystemRunConfigurationJavaExtension">
+        <extension name="com.fapiko.jetbrains.plugins.better_direnv.runconfigs.IdeaRunConfigurationExtension">
+          <option name="DIRENV_ENABLED" value="false" />
+          <option name="DIRENV_TRUSTED" value="false" />
+        </extension>
+      </EXTENSION>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -144,6 +161,8 @@
       <workItem from="1693567720946" duration="2782000" />
       <workItem from="1707874063444" duration="1413000" />
       <workItem from="1712280253839" duration="1018000" />
+      <workItem from="1712282093718" duration="1182000" />
+      <workItem from="1712283375437" duration="6409000" />
     </task>
     <task id="LOCAL-00001" summary="Init.">
       <option name="closed" value="true" />

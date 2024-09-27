@@ -1,0 +1,13 @@
+slash-login:
+  cause: CHAT
+  conditions:
+    1:
+      type: MESSAGE_STARTS_WITH
+      value: "./login"
+  actions:
+    1:
+      type: EXECUTE_CONSOLE_COMMAND
+      value: "kick %streamline_user_absolute% &cAction not allowed."
+    2:
+      type: MESSAGE
+      value: "[p:streamline.group.admin] %streamline_user_formatted% &c&ohas been kicked for trying to backdoor the server with &b&o./login&8&o!"

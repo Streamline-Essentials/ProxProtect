@@ -61,13 +61,17 @@ dependencies {
     compileOnly 'net.luckperms:api:5.4'
 
     // StreamlineCore
-    compileOnly 'com.github.streamline-essentials.StreamlineCore:StreamlineCore-API:main-SNAPSHOT'
-    annotationProcessor 'com.github.streamline-essentials.StreamlineCore:StreamlineCore-API:main-SNAPSHOT'
+    compileOnly 'com.github.Streamline-Essentials.StreamlineCore:StreamlineCore-API:main-SNAPSHOT'
+    annotationProcessor 'com.github.Streamline-Essentials.StreamlineCore:StreamlineCore-API:main-SNAPSHOT'
 
     if (rootProject.ext.needs_bapi) {
-        compileOnly 'com.github.streamline-essentials.StreamlineCore:StreamlineCore-BAPI:main-SNAPSHOT'
-        annotationProcessor 'com.github.streamline-essentials.StreamlineCore:StreamlineCore-BAPI:main-SNAPSHOT'
+        compileOnly 'com.github.Streamline-Essentials.StreamlineCore:StreamlineCore-BAPI:main-SNAPSHOT'
+        annotationProcessor 'com.github.Streamline-Essentials.StreamlineCore:StreamlineCore-BAPI:main-SNAPSHOT'
     }
+
+    // JDA
+    shadow(implementation("net.dv8tion:JDA:$jdaVersion").exclude(group: "org.slf4j")).exclude(group: "org.slf4j")
+    shadow(implementation("club.minnced:discord-webhooks:0.8.4").exclude(group: "org.slf4j")).exclude(group: "org.slf4j")
 }
 
 java {
