@@ -42,11 +42,13 @@ public class HazardAction implements Identifiable {
                 SLAPI.getInstance().getUserManager().kick(cause.getPlayer(), finalValue);
                 break;
             case MESSAGE:
-                Matcher matcher = MatcherUtils.matcherBuilder("([\\[](.*?)[\\]])[ ](.*?)", value);
+                Matcher matcher = MatcherUtils.matcherBuilder("([(](.+)[)])[ ](.+)", finalValue);
                 List<String[]> groups = MatcherUtils.getGroups(matcher, 3);
                 for (String[] group : groups) {
                     String toM = group[1];
                     String message = group[2];
+
+                    message = ModuleUtils.replacePlaceholders(cause.getPlayer(), message);
 
                     ConcurrentSkipListSet<CosmicSender> toMessage = new ConcurrentSkipListSet<>();
 
@@ -68,7 +70,9 @@ public class HazardAction implements Identifiable {
                         });
                     }
 
-                    toMessage.forEach(sender -> sender.sendMessage(finalValue));
+                    final String messageFinal = message;
+
+                    toMessage.forEach(sender -> sender.sendMessage(messageFinal));
                 }
 
                 break;

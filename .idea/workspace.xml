@@ -4,26 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09ffe75c-01fe-4feb-9dae-9fd3bdebfc53" name="Changes" comment="Git ignore.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/configs/HazardsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/Hazard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/action/HazardAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/action/HazardActionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/cause/HazardCause.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/cause/HazardCauseType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/condition/HazardCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/condition/HazardConditionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/events/ProxListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+    <list default="true" id="09ffe75c-01fe-4feb-9dae-9fd3bdebfc53" name="Changes" comment="Update API.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/condition/ConditionPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/ExampleModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/host/plas/ProxProtect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/commands/ExampleCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/configs/ExampleConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/events/ExampleListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/events/own/ExampleEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/ratapi/ExampleExpansion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/data/Hazard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/Hazard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/data/action/HazardAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/action/HazardAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/data/condition/HazardCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/condition/HazardCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/data/condition/HazardConditionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/condition/HazardConditionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/events/ProxListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/host/plas/events/ProxListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hazards.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707875433377</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update API.">
+      <option name="closed" value="true" />
+      <created>1727441915501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727441915501</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +196,8 @@
     <MESSAGE value="Init." />
     <MESSAGE value="Updates." />
     <MESSAGE value="Git ignore." />
-    <option name="LAST_COMMIT_MESSAGE" value="Git ignore." />
+    <MESSAGE value="Update API." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update API." />
   </component>
   <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
     <option name="sizePresets">

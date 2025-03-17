@@ -71,7 +71,12 @@ public class Hazard implements Identifiable {
         getActions().forEach(action -> action.execute(cause));
     }
 
-    public void checkAndConclude(HazardCause cause) {
-        if (checkCause(cause)) executeActions(cause);
+    public boolean checkAndConclude(HazardCause cause) {
+        if (checkCause(cause)) {
+            executeActions(cause);
+            return true;
+        }
+
+        return false;
     }
 }
