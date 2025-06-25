@@ -1,11 +1,11 @@
 package host.plas.events;
 
+import gg.drak.thebase.events.BaseEventListener;
+import gg.drak.thebase.events.processing.BaseProcessor;
 import host.plas.ProxProtect;
 import host.plas.data.cause.HazardCause;
 import host.plas.data.cause.HazardCauseType;
 import singularity.events.server.CosmicChatEvent;
-import tv.quaint.events.BaseEventListener;
-import tv.quaint.events.processing.BaseProcessor;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

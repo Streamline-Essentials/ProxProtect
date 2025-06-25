@@ -1,12 +1,12 @@
 package host.plas.data;
 
+import gg.drak.thebase.objects.Identifiable;
 import host.plas.data.action.HazardAction;
 import host.plas.data.cause.HazardCause;
 import host.plas.data.cause.HazardCauseType;
 import host.plas.data.condition.HazardCondition;
 import lombok.Getter;
 import lombok.Setter;
-import tv.quaint.objects.Identifiable;
 
 import java.util.concurrent.ConcurrentSkipListSet;
 import java.util.concurrent.atomic.AtomicBoolean;

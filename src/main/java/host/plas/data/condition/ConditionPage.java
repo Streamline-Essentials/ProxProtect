@@ -7,7 +7,6 @@ import lombok.Setter;
 import java.net.URL;
 import java.util.Scanner;
 import java.util.concurrent.ConcurrentSkipListMap;
-import java.util.concurrent.atomic.AtomicBoolean;
 
 @Getter @Setter
 public class ConditionPage {

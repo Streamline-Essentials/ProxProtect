@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09ffe75c-01fe-4feb-9dae-9fd3bdebfc53" name="Changes" comment="update: deps" />
+    <list default="true" id="09ffe75c-01fe-4feb-9dae-9fd3bdebfc53" name="Changes" comment="update: version">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/configs/HazardsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/host/plas/configs/HazardsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/data/Hazard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/Hazard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/data/action/HazardAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/action/HazardAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/data/condition/ConditionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/condition/ConditionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/data/condition/HazardCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/host/plas/data/condition/HazardCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/host/plas/events/ProxListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/host/plas/events/ProxListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hazards.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hazards.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +38,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="ProxProtect" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ProxProtect" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -71,7 +87,6 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2UnG1iNypnPzPI1o3FUnBlb6UyP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -87,12 +102,15 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/OneDrive/Development/Java/Streamline/Modules/ResourcePackUtils",
+    "last_opened_file_path": "C:/OneDrive/Development/Java/Streamline/Modules/ProxProtect",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
@@ -195,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742531336296</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update: version">
+      <option name="closed" value="true" />
+      <created>1742535554110</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742535554110</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +245,8 @@
     <MESSAGE value="Update API." />
     <MESSAGE value="update: api" />
     <MESSAGE value="update: deps" />
-    <option name="LAST_COMMIT_MESSAGE" value="update: deps" />
+    <MESSAGE value="update: version" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: version" />
   </component>
   <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
     <option name="sizePresets">

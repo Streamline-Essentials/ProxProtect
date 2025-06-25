@@ -1,20 +1,12 @@
 package host.plas.data.condition;
 
-import host.plas.ProxProtect;
-import host.plas.data.Hazard;
+import gg.drak.thebase.objects.Identifiable;
 import host.plas.data.cause.HazardCause;
 import host.plas.data.cause.HazardCauseType;
 import lombok.Getter;
 import lombok.Setter;
-import tv.quaint.objects.Identifiable;
 
-import java.net.URL;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Optional;
-import java.util.Scanner;
-import java.util.concurrent.ConcurrentSkipListMap;
-import java.util.concurrent.atomic.AtomicBoolean;
 
 @Getter @Setter
 public class HazardCondition implements Identifiable {

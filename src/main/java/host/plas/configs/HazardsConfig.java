@@ -1,5 +1,6 @@
 package host.plas.configs;
 
+import gg.drak.thebase.storage.resources.flat.simple.SimpleConfiguration;
 import host.plas.ProxProtect;
 import host.plas.data.Hazard;
 import host.plas.data.action.HazardAction;
@@ -7,7 +8,6 @@ import host.plas.data.action.HazardActionType;
 import host.plas.data.cause.HazardCauseType;
 import host.plas.data.condition.HazardCondition;
 import host.plas.data.condition.HazardConditionType;
-import tv.quaint.storage.resources.flat.simple.SimpleConfiguration;
 
 import java.util.concurrent.ConcurrentSkipListSet;
 
